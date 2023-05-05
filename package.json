@@ -1,0 +1,49 @@
+{
+  "name": "bingo-opcon",
+  "version": "1.1.0",
+  "description": "Web app for game show host to control bingo and other mini games",
+  "main": "server.js",
+  "scripts": {
+    "start": "echo \"Not a server",
+    "test": "echo \"No test implemented\"",
+    "build": "webpack -p",
+    "watch": "webpack -d --watch",
+    "build-ci": "npm install && npm run build && npm prune --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git-ssh.timeplay.com/bingoplus/bingo-opcon.git"
+  },
+  "author": "Shu Chen",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@timeplay/bus-client": "./tp-packages/bus-client-1.0.3-1.tgz",
+    "@timeplay/eslint-config-airbnb-base": "./tp-packages/eslint-config-airbnb-base-1.0.0.tgz",
+    "@timeplay/logger": "file:tp-packages/logger-1.2.0.tgz",
+    "@timeplay/login-page": "./tp-packages/login-page-1.0.2-9.tgz",
+    "@timeplay/web-config": "./tp-packages/web-config-1.0.1-1.tgz",
+    "auto-bind-es5": "^1.1.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^5.2.7",
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^1.5.7",
+    "eslint": "^5.14.1",
+    "eslint-plugin-import": "^2.16.0",
+    "http-server": "^0.11.1",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "mithril": "^1.1.6",
+    "moment": "^2.24.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}

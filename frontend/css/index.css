@@ -1,0 +1,144 @@
+.tp-grey {
+    background-color: #515151 !important;
+    color: #fff !important;
+}
+
+.tp-dark-grey {
+    background-color: #2B2B2B !important;
+    color: #fff !important;
+}
+
+.tp-light-grey {
+    background-color: #EEEEEE;
+}
+
+.tp-blue {
+    background-color: #00B4FF !important;
+    color: #fff !important;
+}
+
+.tp-dark-blue {
+    background-color: rgb(30, 108, 172) !important;
+    color: #fff !important;
+}
+
+.tp-red {
+    background-color: #ff5555 !important;
+    color: #fff !important;
+}
+
+.tp-green {
+    background-color: #33aa33 !important;
+    color: #fff !important;
+}
+
+.tp-yellow {
+    background-color: #ffea00 !important;
+    color: #fff !important;
+}
+
+.tp-text-white {
+    color: #fff !important;
+}
+
+.tp-text-red {
+    color: #ff5555 !important;
+}
+
+.tp-text-green {
+    color: #33aa33 !important;
+}
+
+.tp-pointer {
+    cursor: pointer;
+}
+
+.preview-element-highlight {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.input-no-transitions {
+    transition: none;
+    transition-property: none;
+}
+
+/* Fake disabled - so that clicks can still be handled */
+.button-disabled, .button-disabled:focus, .button-disabled:hover {
+    background-color: transparent;
+    color: #999;
+    border-color: #e5e5e5;
+}
+
+li.tp-nav-item.uk-active {
+    border-left: 5px solid #39F;
+}
+
+div.tp-scroll {
+    overflow: auto;
+}
+
+div.tp-card-green-tack {
+    border-left: 10px solid #00be00;
+}
+
+div.tp-card-red-tack {
+    border-left: 10px solid #ff5555;
+}
+
+textarea.reg-form {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.no-resize {
+    resize: none;
+}
+
+button.tp-round-button {
+    border-radius: 8em;
+    margin: 0 20px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 10px;
+    max-width: 100px;
+    height: 100px;
+}
+
+button.tp-round-button:disabled {
+    background-color: #515151 !important;
+}
+
+button.tp-round-button > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button.tp-round-button > span > svg {
+    width: 100%;
+    height: 100%;
+}
+
+button.tp-round-button:disabled > span > svg > line {
+    stroke: grey;
+}
+
+.flex-wrap {
+    flex-flow: wrap;
+}
+
+.height-normal {
+    height: 100px
+}
+
+.wof-round-button{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+

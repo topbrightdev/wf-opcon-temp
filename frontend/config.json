@@ -1,0 +1,46 @@
+{
+    "authServiceUrl": "https://stg-auth.timeplay.com/auth/realms/Timeplay/protocol/openid-connect/token",
+    "logoutUrl": "https://stg-auth.timeplay.com/auth/realms/Timeplay/protocol/openid-connect/logout",
+    "clientId": "tp-user",
+    "sessionService": "http://192.168.112.74/sessions",
+    "sessionManager": "http://192.168.112.74/sm",
+    "webClientService": "http://192.168.112.74",
+    "roomService": "http://192.168.112.74/gr",
+    "playlistManager": "http://192.168.112.74/pm",
+    "rewardService": "http://192.168.112.74/reward-service",
+    "accountCookieName": "auth-account",
+    "sessionDefinitions": [
+        {
+            "name": "Pop Up Bingo",
+            "packages": [
+                "com.timeplay.apps.bingo.preshow"
+            ],
+            "rewardId": "ae7373cc-0ca4-4a41-b9f4-c86c7254ad0c",
+            "screenId": 35045901,
+            "ageLimit": true
+        },
+        {
+            "name": "TimePlay Live Interactive Trivia",
+            "packages": [
+                "com.timeplay.apps.trivia.preshow"
+            ],
+            "rewardId": "ae7373cc-0ca4-4a41-b9f4-c86c7254ad0c",
+            "screenId": 35045902,
+            "ageLimit": false
+        },
+        {
+            "name": "Wheel Of Fortune",
+            "packages": [
+              "com.timeplay.apps.wof.pkg1",
+              "com.timeplay.apps.wof.pkg2",
+              "com.timeplay.apps.wof.pkg3"
+            ],
+            "rewardId": "ae7373cc-0ca4-4a41-b9f4-c86c7254ad0c",
+            "screenId": "35031803",
+            "ageLimit": true,
+            "useAvatar": true
+        }
+    ],
+    "targetRevenue": 10000.00,
+    "authDebug": false
+}

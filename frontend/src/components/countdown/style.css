@@ -1,0 +1,38 @@
+.base-countdown {
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+.base-countdown__label {
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 64px;
+}
+
+.base-countdown__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-countdown__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.base-countdown__path-remaining {
+    stroke-width: 7px;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 0s;
+    stroke: currentColor;
+}
